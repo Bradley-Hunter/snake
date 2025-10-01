@@ -1,0 +1,11 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+
+[libraries]
+windows.debug.x86_64 = "res://../rust/target/debug/snake.dll"
+windows.release.x86_64 = "res://../rust/target/release/snake.dll"
+linux.debug.x86_64 = "res://../rust/target/debug/libsnake.so"
+linux.release.x86_64 = "res://../rust/target/release/libsnake.so"
+macos.debug = "res://../rust/target/debug/libsnake.dylib"
+macos.release = "res://../rust/target/release/libsnake.dylib"
